@@ -1,0 +1,44 @@
+customerController
+-viewCartAction()
+
+Mage_Checkout_CartController
+-_getCart()
+-_getCartProductIds()
+-_getQuote()
+
+function page
+-_getItemsData() =======label,value,count
+-_getItemId()
+-_getItemsQtys()
+
+
+-_isCleanIp() ???
+-_getQuoteItem($item) ???
+
+-getCurrencyCode($row)
+-getId()
+-_getData($key)
+
+
+-getCustomer()
+-getBillingAddress()
+-getShippingAddress()
+-getAllShippingAddress()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
