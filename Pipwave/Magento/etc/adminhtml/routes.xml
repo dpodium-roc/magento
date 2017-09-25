@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="pipwave_magento" frontName="pipwave_magento">
+            <module name="Pipwave_Magento" />
+        </route>
+    </router>
+</config>
