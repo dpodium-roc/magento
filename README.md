@@ -2,6 +2,8 @@
 magento plpugin for PIPWAVE
 
 This is still a draft document. The contents have not been finished yet.
+observer,controller,setup is unusable currently
+
 
 Admin panel
 1.  store > configuration > pipwave
