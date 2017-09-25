@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+ <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	
+	<!--- sales_order_place_after located at 
+	app/code/Magento/Sales/Model/Order line 1061 -->
+	
+    <event name="sales_order_place_after">
+        <observer name="Pipwave_Magento_Payment_Get_Info" instance="Pipwave\Magento\Observer\Pipwave_Magento_Payment" />
+    </event>
+ </config>
