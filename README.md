@@ -2,6 +2,7 @@
 magento plpugin for PIPWAVE
 
 This is still a draft document. The contents have not been finished yet.
+currently all file still not configured to tab > spacing, LF
 observer,controller,setup is unusable currently
 
 
