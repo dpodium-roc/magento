@@ -9,7 +9,7 @@
 		xsi:noNamespaceSchemaLocation=
 		"../../../../Magento/Config/etc/system_file.xsd">
 	<system>
-		<!----
+		<!--
 		/*
 		 *id:			identity for tab
 		 *sortOrder:	position of tab
@@ -19,7 +19,7 @@
 		 *showInDefault, showInStore, showInWebsite decide element visibility
 		 *											on each scope
 		 */-->
-		<tab id="local" translate="label" sortOder="130">
+		<tab id="local" translate="label" sortOrder="130">
 			<label>Local</label>
 		</tab>
 		<section id="local_configuration" translate="label" sortOrder="130"
@@ -27,16 +27,15 @@
 			<class>separator-top</class>
 			<label>Local_Configuration</label>
 			<tab>local</tab>
-			<resource>Local_Configuration:local_configuration</resource>
+			<resource>Local_Configuration::local_configuration</resource>
 			<group id="general" translate="label" type="text" sortOrder="130"
 				   showInDefault="1" showInWebsite="0" showInStore="0">
-				<label>General</label>
+				<label>General Configuration</label>
 				<field id="enable" translate="label" type="select" 
 					   sortOrder="130" showInDefault="1" showInWebsite="0" 
 					   showInStore="0">
 					<label>Enable Local</label>
-					<source_model>Magento\Config\Model\Config\Source\Yesno
-					</source_model>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				</field>
 			</group>
 		</section>
