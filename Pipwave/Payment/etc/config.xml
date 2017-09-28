@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+	<default>
+		<pip_payment><!-- section id -->
+			<pipp_payment><!-- group id -->
+				<payment_action>authorize</payment_action>
+				<model>Pipwave\Payment\Model\PaymentMethod</model>
+				<enable>0</enable>
+			</pipp_payment>
+		</pip_payment>
+	</default>
+</config>
